@@ -13,16 +13,12 @@ header {
     padding: 30px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header p {
-    margin: 10px 0;
-}
-
-/* Contenedor de la imagen de perfil */
+/* Contenedor de la imagen de perfil y la presentación */
 .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -30,6 +26,18 @@ header p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.profile-info {
+    max-width: 600px;
+}
+
+.profile-info h1 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin: 10px 0;
 }
 
 /* Barra de navegación */
