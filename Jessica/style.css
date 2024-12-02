@@ -1,63 +1,68 @@
-/* Resetear márgenes y paddings */
-* {
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4; /* Fondo gris claro */
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-}
-
+/* Header con la imagen de perfil */
 header {
-    background-color: #3498db;
+    background-color: #006400; /* Verde oscuro */
     color: white;
+    padding: 30px;
     text-align: center;
-    padding: 30px 20px;
 }
 
-header h1 {
-    font-size: 40px;
-}
-
-header p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.container {
+.profile-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info h1 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+/* Estilos para las tarjetas */
+.container {
     padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card {
-    background-color: white;
+    background-color: #ffffff; /* Fondo blanco */
     padding: 20px;
-    margin: 10px;
-    width: 250px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    color: #FFD700; /* Dorado */
+    margin-top: 0;
 }
 
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    margin-bottom: 10px;
+p {
+    color: #333333; /* Texto oscuro */
 }
 
 a {
-    color: #3498db;
+    color: #006400; /* Verde para enlaces */
     text-decoration: none;
 }
 
