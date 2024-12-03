@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #2d6a4f; /* Verde oscuro */
+    color: #f1e0a4; /* Dorado claro */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sección del profesor */
+.profesor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.informacion h2 {
+    color: #2d6a4f; /* Verde oscuro */
+    font-size: 1.8em;
+}
+
+.informacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informacion ul li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Sección de Nivel Académico */
+.nivel {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nivel h3 {
+    color: #2d6a4f; /* Verde oscuro */
+    font-size: 1.6em;
+}
+
+/* Sección de Contacto */
+.contacto {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h3 {
+    color: #2d6a4f; /* Verde oscuro */
+    font-size: 1.6em;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto ul li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contacto ul li a {
+    color: #2d6a4f;
+    text-decoration: none;
+}
+
+.contacto ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2d6a4f; /* Verde oscuro */
+    color: #f1e0a4; /* Dorado claro */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
