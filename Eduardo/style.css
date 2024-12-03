@@ -1,0 +1,96 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #00ff7f;
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Secciones */
+section {
+    background-color: #222222;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+}
+
+h2 {
+    color: #00bfff;
+}
+
+.degree-info {
+    margin-top: 20px;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.degree-info p {
+    margin: 10px 0;
+}
+
+/* Contacto */
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    color: #f0f0f0;
+}
+
+/* Botón */
+.button {
+    background-color: #00bfff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0099cc;
+}
