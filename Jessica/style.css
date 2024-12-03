@@ -1,0 +1,136 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo gris claro */
+}
+
+/* Encabezado */
+header {
+    background-color: #006400; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.profile-info p {
+    font-size: 18px;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #FFD700; /* Dorado */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #006400; /* Verde para los enlaces */
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #006400; /* Verde al pasar el mouse */
+    color: white; /* Texto blanco cuando se pasa el mouse */
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+}
+
+.section {
+    background-color: #f8f8f8; /* Gris muy claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #FFD700; /* Borde dorado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #FFD700; /* Dorado para los títulos */
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #006400; /* Línea verde debajo de los títulos */
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #006400; /* Verde para los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del contenedor de las secciones */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-header h2 {
+    font-size: 20px;
+    color: #006400; /* Verde para los subtítulos */
+}
+
+.section-header img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilo de los botones en las secciones */
+.button {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FFD700; /* Cambia a dorado al pasar el mouse */
+}
