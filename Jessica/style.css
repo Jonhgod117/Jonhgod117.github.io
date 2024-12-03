@@ -1,42 +1,38 @@
-/* Estilos básicos */
+/* Estilos básicos para el diseño */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fondo gris claro */
+    background-color: #f4f4f9;
 }
 
-/* Encabezado */
 header {
-    background-color: #006400; /* Verde oscuro */
+    background-color: #0073e6;
     color: white;
+    text-align: center;
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
 }
 
 .profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-top: 15px;
 }
 
-.profile-info h1 {
-    margin: 0;
-    font-size: 30px;
-}
-
-.profile-info p {
-    font-size: 18px;
-}
-
-/* Barra de navegación */
+/* Estilo de la barra de navegación */
 nav {
-    background-color: #FFD700; /* Dorado */
+    background-color: #333;
+    padding: 10px;
     text-align: center;
-    padding: 15px 0;
 }
 
 nav ul {
@@ -47,42 +43,33 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
-nav ul li a {
+.nav-btn {
+    color: white;
     text-decoration: none;
-    color: #006400; /* Verde para los enlaces */
-    font-size: 18px;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
     padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    background-color: #006400; /* Verde al pasar el mouse */
-    color: white; /* Texto blanco cuando se pasa el mouse */
+.nav-btn:hover {
+    background-color: #0073e6;
 }
 
-/* Estilo para el contenido principal */
-main {
+/* Estilos para las secciones */
+section {
     padding: 20px;
-}
-
-.section {
-    background-color: #f8f8f8; /* Gris muy claro */
-    padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    background-color: white;
     border-radius: 8px;
-    border: 2px solid #FFD700; /* Borde dorado */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.section h2 {
-    color: #FFD700; /* Dorado para los títulos */
-    font-size: 24px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #006400; /* Línea verde debajo de los títulos */
-    padding-bottom: 10px;
+h2 {
+    color: #0073e6;
 }
 
 ul {
@@ -96,41 +83,9 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #006400; /* Verde para los enlaces */
+    color: #0073e6;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Estilo del contenedor de las secciones */
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-}
-
-.section-header h2 {
-    font-size: 20px;
-    color: #006400; /* Verde para los subtítulos */
-}
-
-.section-header img {
-    width: 30px;
-    height: 30px;
-}
-
-/* Estilo de los botones en las secciones */
-.button {
-    background-color: #006400;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #FFD700; /* Cambia a dorado al pasar el mouse */
 }
